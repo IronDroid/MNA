@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MUSEO NACIONAL DE ARTE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_menu_mna_">MenuMNA_Activity</string>
+    <string name="title_activity_language">Select Language</string>
+    <string name="title_activity_code_mna">Input Code</string>
+    <string name="title_activity_task_qrcode">TaskQRCodeActivity</string>
+    <string name="title_activity_list_mna">Art List</string>
+    <string name="title_activity_properties">About MNA</string>
+    <string name="title_activity_properties_mna">PropertiesMNAActivity</string>
+    <string name="title_activity_media_mna">MediaMNAActivity</string>
+    <string name="menu_txt_ver_lista">View List</string>
+    <string name="menu_txt_acerca_mna">About MNA</string>
+    <string name="menu_txt_ingresar_codigo">Input Code</string>
+    <string name="menu_txt_leer_qr">Read QR</string>
+
+</resources>

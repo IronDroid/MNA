@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDCDCD"
+    android:padding="3dp" >
+    <Button
+        android:id="@+id/button_back"
+        style="@style/ButtonAppThemeB"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:onClick="buttonback"
+        android:text="@string/txt_back"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#f2f2f2" />
+
+    <Button
+        android:id="@+id/button_Next"
+        style="@style/ButtonAppThemeN"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="buttonNext"
+        android:text="@string/txt_lang"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#f2f2f2" />
+</FrameLayout>

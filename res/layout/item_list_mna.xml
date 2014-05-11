@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#ffc3a1"
+    tools:ignore="HardcodedText,SpUsage,DisableBaselineAlignment,ContentDescription" >
+
+    <LinearLayout
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_weight="0.03"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView_obra"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.55"
+            android:src="@drawable/medalla" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.97"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView_title_obra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Obra X_i"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#010101"
+            android:textSize="26dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_code_obra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Codigo: 777"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#010101"
+            android:textSize="24dip" />
+
+        <TextView
+            android:id="@+id/textView_lugar_partida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Santa Cruz"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#010101"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

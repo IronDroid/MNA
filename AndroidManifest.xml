@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gomedia.mna"
+          android:versionCode="1"
+          android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GPS_PROVIDER" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="com.gomedia.mna.GlobalDataApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:theme="@style/Theme.Example" >
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.Language_Activity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.Menu2MNA_Activity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.CodeMNA_Activity"
+            android:label="@string/title_activity_code_mna">
+        </activity>
+        <!--android:configChanges="keyboard|keyboardHidden|orientation"-->
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.TaskQRCode_Activity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.ListMNA_Activity"
+            android:label="@string/title_activity_list_mna">
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.PropertiesMNA_Activity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name="com.gomedia.mna.About_Activity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,123 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".PropertiesMNA_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageViewObra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#77fefefe"
+            android:src="@drawable/gundam_00"/>
+        <include
+            android:layout_weight="1"
+            layout="@layout/layout_media_control" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textViewContents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text=" Fer: don&apos;t think. feel\n Esta generación de koreanos y japones no envejece porq el 40%\n de edificios son de cirugía plástica publicidad de cirugías plásticas en todas partes."
+            android:textSize="@dimen/description" />
+        <FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#020202" >
+                <VideoView
+                    android:id="@+id/videoView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <ProgressBar
+                        android:background="@android:color/transparent"
+                        android:id="@+id/progressBarVideo"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <SeekBar
+                        android:background="@android:color/transparent"
+                        android:id="@+id/seekBarVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:thumb="@drawable/seek_thumb" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent">
+                    <ImageButton
+                        android:id="@+id/buttonPlayVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00ffffff"
+                        android:onClick="buttonMediaPlayVideo"
+                        android:padding="10dp"
+                        android:src="@drawable/media_play" />
+                    <ImageButton
+                        android:id="@+id/buttonStopVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00ffffff"
+                        android:onClick="buttonMediaStopVideo"
+                        android:padding="10dp"
+                        android:src="@drawable/media_stop_pressed" />
+                    <TextView
+                        android:id="@+id/textView_media_time_video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#aaf2f2f2" />
+                    <ImageButton
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00ffffff"
+                        android:onClick="fullScreen"
+                        android:padding="10dp"
+                        android:src="@drawable/media_stop_pressed" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

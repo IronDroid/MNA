@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF6F3C"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:ignore="ContentDescription,MissingPrefix" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#F4F4F4"
+        android:src="@drawable/ic_logo_mna" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        and=""
+        android:paddingLeft="10dp"
+        android:text="MUSEO NACIONAL DE ARTE"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F4F4F4"
+        android:textSize="@dimen/description"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

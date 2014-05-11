@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MUSEO NACIONAL DE ARTE</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_down">Descargar Contenido</string>
+    <string name="action_upload">Upload</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="sumit_title">Dame tu comentario de la Obra</string>
+    <string name="sumit">Enviar</string>
+    <string name="title_activity_splash_screen">MNA</string>
+    <string name="title_activity_menu_mna_">MenuMNA_Activity</string>
+    <string name="title_activity_language">Seleccionar Idioma</string>
+    <string name="title_activity_code_mna">Ingresar Codigo</string>
+    <string name="title_activity_task_qrcode">TaskQRCodeActivity</string>
+    <string name="title_activity_list_mna">LISTA DE OBRAS</string>
+    <string name="title_activity_properties">Codigo Obra: </string>
+    <string name="title_activity_properties_mna">PropertiesMNAActivity</string>
+    <string name="title_activity_media_mna">Video</string>
+    <string name="mensaje">Enviar Mensaje</string>
+    <string name="menu_txt_ver_lista">Ver Lista</string>
+    <string name="menu_txt_acerca_mna">Acerca de MNA</string>
+    <string name="menu_txt_ingresar_codigo">Ingresar Codigo</string>
+    <string name="menu_txt_leer_qr">Leer QR</string>
+    <string name="title_activity_about_">About_Activity</string>
+    <string name="title_activity_menu2_mna_">Menu2MNA_Activity</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_yes">Volver a intentar</string>
+    <string name="dialog_incode">Validar Codigo</string>
+    <string name="dialog_mensage">Introducir codigo de adminstrador</string>
+    <string name="dialog_mensage_erro">Codigo incorrecto vuelva a intentarlo</string>
+    <string name="txt_in_code">Introdusca un codigo</string>
+    <string name="txt_erro_code">No existe este codigo!</string>
+    <string name="txt_back">Volver</string>
+    <string name="txt_next">Ver</string>
+    <string name="txt_lang">Seleccionar</string>
+    <string name="txt_code">Codigo: </string>
+    <string name="title_activity_media2_mna_">Media2MNA_Activity</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    
+    
+    <string name="uno">1</string>
+	<string name="dos">2</string>
+	<string name="tres">3</string>
+	<string name="cuatro">4</string>
+	<string name="cinco">5</string>
+	<string name="seis">6</string>
+	<string name="siete">7</string>
+	<string name="ocho">8</string>
+	<string name="nueve">9</string>
+	<string name="cero">0</string>
+    <!--  -->
+    <string name="view_content">Ver Contenido</string>
+    <string name="media_video_title">Titulo de la obra</string>
+
+</resources>

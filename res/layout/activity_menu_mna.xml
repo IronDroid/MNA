@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuMNA_Activity" >
+
+    <include layout="@layout/layout_header_mna" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.48" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignLeft="@+id/frameLayout1"
+            android:layout_alignTop="@+id/frameLayout4" >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/selector_menu_incode"
+                android:onClick="buttonViewList" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#aa7AA42B"
+                    android:padding="3dp"
+                    android:text="@string/menu_txt_ver_lista"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#aa7AA42B" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignLeft="@+id/frameLayout3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="33dp" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/selector_menu_incode"
+                android:onClick="buttonAboutMNA" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#aaFF6F3C"
+                    android:padding="3dp"
+                    android:text="@string/menu_txt_acerca_mna"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#aaFF6F3C" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/selector_menu_incode"
+                android:onClick="buttonInCode" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#aaA46386"
+                    android:padding="3dp"
+                    android:text="@string/menu_txt_ingresar_codigo"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#aaA46386" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@+id/frameLayout1"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/selector_menu_incode"
+                android:onClick="buttonReadQR" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#aa52AEB3"
+                    android:padding="3dp"
+                    android:text="@string/menu_txt_leer_qr"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#aa52AEB3" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_bottom_mna" />
+
+</LinearLayout>

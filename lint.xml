@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_media_mna.xml" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/activity_about.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout-sw600dp/activity_properties_mna.xml" />
+        <ignore path="res/layout/activity_media_mna.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/activity_about.xml" />
+    </issue>
+    <issue id="NestedWeights">
+        <ignore path="res/layout/activity_about.xml" />
+    </issue>
+    <issue id="Orientation">
+        <ignore path="res/layout/activity_media_mna.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/activity_about.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_media_mna.xml" />
+    </issue>
+</lint>

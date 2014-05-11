@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Activity"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#f2c17e"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="188dp"
+                android:layout_height="143dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_launcher_web" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp"
+                android:layout_weight="0.75"
+                android:text="Dirección\nCalle Comercio esq. Socabaya - La Paz, Bolivia\nCasilla 11390\nTeléfonos\n(591-2) 2408600\nFax (591-2) 2408542"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/lenguaje" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="180dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.80"
+                    android:background="#1e00ff"
+                    android:text="@string/facebook"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/description"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.87"
+                    android:background="#FF6F3C"
+                    android:text="@string/twitter"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/description"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="180dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#ff0000"
+                    android:text="@string/youtube"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/description"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linearLayout1"
+                android:layout_centerHorizontal="true"
+                android:text="REDES SOCIALES"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/description" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
